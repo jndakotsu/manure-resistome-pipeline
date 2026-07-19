@@ -5,7 +5,7 @@ genes in real shotgun metagenomic sequencing data from livestock manure, using t
 Comprehensive Antibiotic Resistance Database (CARD) and the Resistance Gene Identifier (RGI).
 
 Manure is a recognized environmental reservoir for AMR genes, and understanding what resistance
-genes are actually present — and how they differ between sources — is directly relevant to
+genes are actually present and how they differ between sources  is directly relevant to
 composting and manure management practices intended to reduce resistance gene spread before
 land application.
 
