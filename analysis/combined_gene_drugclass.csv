@@ -1,0 +1,270 @@
+sample,gene,drug_class,gene_family,mechanism,all_mapped_reads,avg_pct_coverage
+SRR12619551,srmB,macrolide antibiotic,Miscellaneous ABC-F subfamily ATP-binding cassette ribosomal protection proteins,antibiotic target protection,4.0,4.23
+SRR12619551,lsaE,lincosamide antibiotic,lsa-type ABC-F protein,antibiotic target protection,1.0,9.49
+SRR12619551,lsaE,streptogramin antibiotic,lsa-type ABC-F protein,antibiotic target protection,1.0,9.49
+SRR12619551,lsaE,pleuromutilin antibiotic,lsa-type ABC-F protein,antibiotic target protection,1.0,9.49
+SRR12619551,rgt1438,rifamycin antibiotic,rifampin glycosyltransferase,antibiotic inactivation,2.0,12.06
+SRR12619551,smeD,macrolide antibiotic,resistance-nodulation-cell division (RND) antibiotic efflux pump,antibiotic efflux,2.0,3.38
+SRR12619551,smeD,fluoroquinolone antibiotic,resistance-nodulation-cell division (RND) antibiotic efflux pump,antibiotic efflux,2.0,3.38
+SRR12619551,smeD,tetracycline antibiotic,resistance-nodulation-cell division (RND) antibiotic efflux pump,antibiotic efflux,2.0,3.38
+SRR12619551,smeD,phenicol antibiotic,resistance-nodulation-cell division (RND) antibiotic efflux pump,antibiotic efflux,2.0,3.38
+SRR12619551,amrB,macrolide antibiotic,resistance-nodulation-cell division (RND) antibiotic efflux pump,antibiotic efflux,8.0,4.05
+SRR12619551,amrB,aminoglycoside antibiotic,resistance-nodulation-cell division (RND) antibiotic efflux pump,antibiotic efflux,8.0,4.05
+SRR12619551,lnuB,lincosamide antibiotic,lincosamide nucleotidyltransferase (LNU),antibiotic inactivation,1.0,12.94
+SRR12619551,tetA(P),tetracycline antibiotic,major facilitator superfamily (MFS) antibiotic efflux pump,antibiotic efflux,2.0,22.88
+SRR12619551,mdtB,aminocoumarin antibiotic,resistance-nodulation-cell division (RND) antibiotic efflux pump,antibiotic efflux,2.0,1.31
+SRR12619551,smeE,macrolide antibiotic,resistance-nodulation-cell division (RND) antibiotic efflux pump,antibiotic efflux,4.0,5.44
+SRR12619551,smeE,fluoroquinolone antibiotic,resistance-nodulation-cell division (RND) antibiotic efflux pump,antibiotic efflux,4.0,5.44
+SRR12619551,smeE,tetracycline antibiotic,resistance-nodulation-cell division (RND) antibiotic efflux pump,antibiotic efflux,4.0,5.44
+SRR12619551,smeE,phenicol antibiotic,resistance-nodulation-cell division (RND) antibiotic efflux pump,antibiotic efflux,4.0,5.44
+SRR12619551,carA,macrolide antibiotic,Miscellaneous ABC-F subfamily ATP-binding cassette ribosomal protection proteins,antibiotic target protection,6.0,3.2
+SRR12619551,rphA,rifamycin antibiotic,rifampin phosphotransferase,antibiotic inactivation,8.0,19.75
+SRR12619551,lmrC,lincosamide antibiotic,Miscellaneous ABC-F subfamily ATP-binding cassette ribosomal protection proteins,antibiotic target protection,2.0,1.81
+SRR12619551,novA,aminocoumarin antibiotic,ATP-binding cassette (ABC) antibiotic efflux pump,antibiotic efflux,8.0,20.35
+SRR12619551,ceoB,fluoroquinolone antibiotic,resistance-nodulation-cell division (RND) antibiotic efflux pump,antibiotic efflux,6.0,6.55
+SRR12619551,ceoB,aminoglycoside antibiotic,resistance-nodulation-cell division (RND) antibiotic efflux pump,antibiotic efflux,6.0,6.55
+SRR12619551,mdsB,monobactam,resistance-nodulation-cell division (RND) antibiotic efflux pump,antibiotic efflux,2.0,1.7
+SRR12619551,mdsB,carbapenem,resistance-nodulation-cell division (RND) antibiotic efflux pump,antibiotic efflux,2.0,1.7
+SRR12619551,mdsB,cephalosporin,resistance-nodulation-cell division (RND) antibiotic efflux pump,antibiotic efflux,2.0,1.7
+SRR12619551,mdsB,penicillin beta-lactam,resistance-nodulation-cell division (RND) antibiotic efflux pump,antibiotic efflux,2.0,1.7
+SRR12619551,mdsB,phenicol antibiotic,resistance-nodulation-cell division (RND) antibiotic efflux pump,antibiotic efflux,2.0,1.7
+SRR12619551,oleB,macrolide antibiotic,Miscellaneous ABC-F subfamily ATP-binding cassette ribosomal protection proteins,antibiotic target protection,12.0,2.16
+SRR12619551,APH(6)-Ia,aminoglycoside antibiotic,APH(6),antibiotic inactivation,2.0,11.36
+SRR12619551,smeR,aminoglycoside antibiotic,resistance-nodulation-cell division (RND) antibiotic efflux pump,antibiotic efflux,2.0,4.78
+SRR12619551,smeR,cephalosporin,resistance-nodulation-cell division (RND) antibiotic efflux pump,antibiotic efflux,2.0,4.78
+SRR12619551,smeR,penicillin beta-lactam,resistance-nodulation-cell division (RND) antibiotic efflux pump,antibiotic efflux,2.0,4.78
+SRR12619551,mexY,macrolide antibiotic,resistance-nodulation-cell division (RND) antibiotic efflux pump,antibiotic efflux,6.0,5.09
+SRR12619551,mexY,fluoroquinolone antibiotic,resistance-nodulation-cell division (RND) antibiotic efflux pump,antibiotic efflux,6.0,5.09
+SRR12619551,mexY,aminoglycoside antibiotic,resistance-nodulation-cell division (RND) antibiotic efflux pump,antibiotic efflux,6.0,5.09
+SRR12619551,mexY,carbapenem,resistance-nodulation-cell division (RND) antibiotic efflux pump,antibiotic efflux,6.0,5.09
+SRR12619551,mexY,cephalosporin,resistance-nodulation-cell division (RND) antibiotic efflux pump,antibiotic efflux,6.0,5.09
+SRR12619551,mexY,penicillin beta-lactam,resistance-nodulation-cell division (RND) antibiotic efflux pump,antibiotic efflux,6.0,5.09
+SRR12619551,mexY,tetracycline antibiotic,resistance-nodulation-cell division (RND) antibiotic efflux pump,antibiotic efflux,6.0,5.09
+SRR12619551,mexY,phenicol antibiotic,resistance-nodulation-cell division (RND) antibiotic efflux pump,antibiotic efflux,6.0,5.09
+SRR12619551,mexY,disinfecting agents and antiseptics,resistance-nodulation-cell division (RND) antibiotic efflux pump,antibiotic efflux,6.0,5.09
+SRR12619551,vanH gene in vanF cluster,glycopeptide antibiotic,vanH; glycopeptide resistance gene cluster,antibiotic target alteration,2.0,27.04
+SRR12619551,LRA-10,cephalosporin,class C LRA beta-lactamase,antibiotic inactivation,2.0,3.99
+SRR12619551,LRA-10,penicillin beta-lactam,class C LRA beta-lactamase,antibiotic inactivation,2.0,3.99
+SRR12619551,mexQ,macrolide antibiotic,resistance-nodulation-cell division (RND) antibiotic efflux pump,antibiotic efflux,4.0,6.8
+SRR12619551,mexQ,carbapenem,resistance-nodulation-cell division (RND) antibiotic efflux pump,antibiotic efflux,4.0,6.8
+SRR12619551,mexQ,tetracycline antibiotic,resistance-nodulation-cell division (RND) antibiotic efflux pump,antibiotic efflux,4.0,6.8
+SRR12619551,mexQ,diaminopyrimidine antibiotic,resistance-nodulation-cell division (RND) antibiotic efflux pump,antibiotic efflux,4.0,6.8
+SRR12619551,mexQ,phenicol antibiotic,resistance-nodulation-cell division (RND) antibiotic efflux pump,antibiotic efflux,4.0,6.8
+SRR12619551,mexQ,disinfecting agents and antiseptics,resistance-nodulation-cell division (RND) antibiotic efflux pump,antibiotic efflux,4.0,6.8
+SRR12619551,MexW,macrolide antibiotic,resistance-nodulation-cell division (RND) antibiotic efflux pump,antibiotic efflux,2.0,1.21
+SRR12619551,MexW,fluoroquinolone antibiotic,resistance-nodulation-cell division (RND) antibiotic efflux pump,antibiotic efflux,2.0,1.21
+SRR12619551,MexW,tetracycline antibiotic,resistance-nodulation-cell division (RND) antibiotic efflux pump,antibiotic efflux,2.0,1.21
+SRR12619551,MexW,phenicol antibiotic,resistance-nodulation-cell division (RND) antibiotic efflux pump,antibiotic efflux,2.0,1.21
+SRR12619551,MexW,disinfecting agents and antiseptics,resistance-nodulation-cell division (RND) antibiotic efflux pump,antibiotic efflux,2.0,1.21
+SRR12619551,MexK,macrolide antibiotic,resistance-nodulation-cell division (RND) antibiotic efflux pump,antibiotic efflux,4.0,6.27
+SRR12619551,MexK,tetracycline antibiotic,resistance-nodulation-cell division (RND) antibiotic efflux pump,antibiotic efflux,4.0,6.27
+SRR12619551,oleC,macrolide antibiotic,ATP-binding cassette (ABC) antibiotic efflux pump,antibiotic efflux,6.0,15.24
+SRR12619551,oqxB,fluoroquinolone antibiotic,resistance-nodulation-cell division (RND) antibiotic efflux pump,antibiotic efflux,2.0,2.0
+SRR12619551,oqxB,glycylcycline,resistance-nodulation-cell division (RND) antibiotic efflux pump,antibiotic efflux,2.0,2.0
+SRR12619551,oqxB,tetracycline antibiotic,resistance-nodulation-cell division (RND) antibiotic efflux pump,antibiotic efflux,2.0,2.0
+SRR12619551,oqxB,diaminopyrimidine antibiotic,resistance-nodulation-cell division (RND) antibiotic efflux pump,antibiotic efflux,2.0,2.0
+SRR12619551,oqxB,nitrofuran antibiotic,resistance-nodulation-cell division (RND) antibiotic efflux pump,antibiotic efflux,2.0,2.0
+SRR12619551,efpA,rifamycin antibiotic,major facilitator superfamily (MFS) antibiotic efflux pump,antibiotic efflux,2.0,3.39
+SRR12619551,efpA,isoniazid-like antibiotic,major facilitator superfamily (MFS) antibiotic efflux pump,antibiotic efflux,2.0,3.39
+SRR12619551,lfrA,fluoroquinolone antibiotic,major facilitator superfamily (MFS) antibiotic efflux pump,antibiotic efflux,2.0,3.37
+SRR12619551,rphB,rifamycin antibiotic,rifampin phosphotransferase,antibiotic inactivation,4.0,10.66
+SRR12619551,tetA(58),tetracycline antibiotic,major facilitator superfamily (MFS) antibiotic efflux pump,antibiotic efflux,2.0,3.49
+SRR12619551,MuxB,macrolide antibiotic,resistance-nodulation-cell division (RND) antibiotic efflux pump,antibiotic efflux,14.0,14.72
+SRR12619551,MuxB,monobactam,resistance-nodulation-cell division (RND) antibiotic efflux pump,antibiotic efflux,14.0,14.72
+SRR12619551,MuxB,tetracycline antibiotic,resistance-nodulation-cell division (RND) antibiotic efflux pump,antibiotic efflux,14.0,14.72
+SRR12619551,MuxB,aminocoumarin antibiotic,resistance-nodulation-cell division (RND) antibiotic efflux pump,antibiotic efflux,14.0,14.72
+SRR12619551,MexF,fluoroquinolone antibiotic,resistance-nodulation-cell division (RND) antibiotic efflux pump,antibiotic efflux,20.0,16.37
+SRR12619551,MexF,diaminopyrimidine antibiotic,resistance-nodulation-cell division (RND) antibiotic efflux pump,antibiotic efflux,20.0,16.37
+SRR12619551,MexF,phenicol antibiotic,resistance-nodulation-cell division (RND) antibiotic efflux pump,antibiotic efflux,20.0,16.37
+SRR12619551,AxyY,macrolide antibiotic,resistance-nodulation-cell division (RND) antibiotic efflux pump,antibiotic efflux,2.0,4.97
+SRR12619551,AxyY,fluoroquinolone antibiotic,resistance-nodulation-cell division (RND) antibiotic efflux pump,antibiotic efflux,2.0,4.97
+SRR12619551,AxyY,aminoglycoside antibiotic,resistance-nodulation-cell division (RND) antibiotic efflux pump,antibiotic efflux,2.0,4.97
+SRR12619551,AxyY,cephalosporin,resistance-nodulation-cell division (RND) antibiotic efflux pump,antibiotic efflux,2.0,4.97
+SRR12619551,MuxC,macrolide antibiotic,resistance-nodulation-cell division (RND) antibiotic efflux pump,antibiotic efflux,8.0,10.06
+SRR12619551,MuxC,monobactam,resistance-nodulation-cell division (RND) antibiotic efflux pump,antibiotic efflux,8.0,10.06
+SRR12619551,MuxC,tetracycline antibiotic,resistance-nodulation-cell division (RND) antibiotic efflux pump,antibiotic efflux,8.0,10.06
+SRR12619551,MuxC,aminocoumarin antibiotic,resistance-nodulation-cell division (RND) antibiotic efflux pump,antibiotic efflux,8.0,10.06
+SRR12619551,cprR,peptide antibiotic,pmr phosphoethanolamine transferase,antibiotic target alteration; antibiotic efflux,2.0,5.65
+SRR12619551,rpoB2,rifamycin antibiotic,rifamycin-resistant beta-subunit of RNA polymerase (rpoB),antibiotic target alteration; antibiotic target replacement,72.0,42.51
+SRR12619551,ParR,macrolide antibiotic,resistance-nodulation-cell division (RND) antibiotic efflux pump; Outer Membrane Porin (Opr),antibiotic efflux; reduced permeability to antibiotic,2.0,6.92
+SRR12619551,ParR,fluoroquinolone antibiotic,resistance-nodulation-cell division (RND) antibiotic efflux pump; Outer Membrane Porin (Opr),antibiotic efflux; reduced permeability to antibiotic,2.0,6.92
+SRR12619551,ParR,monobactam,resistance-nodulation-cell division (RND) antibiotic efflux pump; Outer Membrane Porin (Opr),antibiotic efflux; reduced permeability to antibiotic,2.0,6.92
+SRR12619551,ParR,aminoglycoside antibiotic,resistance-nodulation-cell division (RND) antibiotic efflux pump; Outer Membrane Porin (Opr),antibiotic efflux; reduced permeability to antibiotic,2.0,6.92
+SRR12619551,ParR,carbapenem,resistance-nodulation-cell division (RND) antibiotic efflux pump; Outer Membrane Porin (Opr),antibiotic efflux; reduced permeability to antibiotic,2.0,6.92
+SRR12619551,ParR,cephalosporin,resistance-nodulation-cell division (RND) antibiotic efflux pump; Outer Membrane Porin (Opr),antibiotic efflux; reduced permeability to antibiotic,2.0,6.92
+SRR12619551,ParR,penicillin beta-lactam,resistance-nodulation-cell division (RND) antibiotic efflux pump; Outer Membrane Porin (Opr),antibiotic efflux; reduced permeability to antibiotic,2.0,6.92
+SRR12619551,ParR,tetracycline antibiotic,resistance-nodulation-cell division (RND) antibiotic efflux pump; Outer Membrane Porin (Opr),antibiotic efflux; reduced permeability to antibiotic,2.0,6.92
+SRR12619551,ParR,phenicol antibiotic,resistance-nodulation-cell division (RND) antibiotic efflux pump; Outer Membrane Porin (Opr),antibiotic efflux; reduced permeability to antibiotic,2.0,6.92
+SRR12619551,ParR,disinfecting agents and antiseptics,resistance-nodulation-cell division (RND) antibiotic efflux pump; Outer Membrane Porin (Opr),antibiotic efflux; reduced permeability to antibiotic,2.0,6.92
+SRR12619551,MexI,fluoroquinolone antibiotic,resistance-nodulation-cell division (RND) antibiotic efflux pump,antibiotic efflux,6.0,4.3
+SRR12619551,MexI,disinfecting agents and antiseptics,resistance-nodulation-cell division (RND) antibiotic efflux pump,antibiotic efflux,6.0,4.3
+SRR12619551,Bifidobacterium adolescentis rpoB mutants conferring resistance to rifampicin,rifamycin antibiotic,rifamycin-resistant beta-subunit of RNA polymerase (rpoB),antibiotic target alteration; antibiotic target replacement,42.0,30.55
+SRR12619551,Bifidobacterium bifidum ileS conferring resistance to mupirocin,mupirocin-like antibiotic,antibiotic-resistant isoleucyl-tRNA synthetase (ileS),antibiotic target alteration,6.0,6.53
+SRR12619551,vanS gene in vanO cluster,glycopeptide antibiotic,vanS; glycopeptide resistance gene cluster,antibiotic target alteration,10.0,35.93
+SRR12619551,vanR gene in vanO cluster,glycopeptide antibiotic,glycopeptide resistance gene cluster; vanR,antibiotic target alteration,14.0,76.92
+SRR12619551,Nocardia farcinica rox,rifamycin antibiotic,rifampin monooxygenase,antibiotic inactivation,4.0,14.35
+SRR12619551,Streptomyces venezuelae rox,rifamycin antibiotic,rifampin monooxygenase,antibiotic inactivation,6.0,36.76
+SRR12619551,OXA-1091,penicillin beta-lactam,OXA beta-lactamase,antibiotic inactivation,2.0,24.18
+SRR12619551,HelR,rifamycin antibiotic,helicase-like RNA polymerase protection protein,antibiotic target protection,30.0,38.77
+SRR12619561,CfxA2,cephalosporin,CfxA beta-lactamase,antibiotic inactivation,2.0,10.66
+SRR12619561,lnuA,lincosamide antibiotic,lincosamide nucleotidyltransferase (LNU),antibiotic inactivation,14.0,99.38
+SRR12619561,lsaE,lincosamide antibiotic,lsa-type ABC-F protein,antibiotic target protection,58.0,99.53
+SRR12619561,lsaE,streptogramin antibiotic,lsa-type ABC-F protein,antibiotic target protection,58.0,99.53
+SRR12619561,lsaE,pleuromutilin antibiotic,lsa-type ABC-F protein,antibiotic target protection,58.0,99.53
+SRR12619561,APH(3')-Ia,aminoglycoside antibiotic,APH(3'),antibiotic inactivation,2.0,36.76
+SRR12619561,ErmQ,macrolide antibiotic,Erm 23S ribosomal RNA methyltransferase,antibiotic target alteration,8.0,71.58
+SRR12619561,ErmQ,lincosamide antibiotic,Erm 23S ribosomal RNA methyltransferase,antibiotic target alteration,8.0,71.58
+SRR12619561,ErmQ,streptogramin antibiotic,Erm 23S ribosomal RNA methyltransferase,antibiotic target alteration,8.0,71.58
+SRR12619561,ErmQ,streptogramin A antibiotic,Erm 23S ribosomal RNA methyltransferase,antibiotic target alteration,8.0,71.58
+SRR12619561,ErmQ,streptogramin B antibiotic,Erm 23S ribosomal RNA methyltransferase,antibiotic target alteration,8.0,71.58
+SRR12619561,lnuC,lincosamide antibiotic,lincosamide nucleotidyltransferase (LNU),antibiotic inactivation,18.0,100.0
+SRR12619561,dfrD,diaminopyrimidine antibiotic,trimethoprim resistant dihydrofolate reductase dfr,antibiotic target replacement,2.0,30.67
+SRR12619561,tet(W),tetracycline antibiotic,tetracycline-resistant ribosomal protection protein,antibiotic target protection,30.0,67.66
+SRR12619561,tetA(P),tetracycline antibiotic,major facilitator superfamily (MFS) antibiotic efflux pump,antibiotic efflux,20.0,89.23
+SRR12619561,ErmF,macrolide antibiotic,Erm 23S ribosomal RNA methyltransferase,antibiotic target alteration,14.0,99.13
+SRR12619561,ErmF,lincosamide antibiotic,Erm 23S ribosomal RNA methyltransferase,antibiotic target alteration,14.0,99.13
+SRR12619561,ErmF,streptogramin antibiotic,Erm 23S ribosomal RNA methyltransferase,antibiotic target alteration,14.0,99.13
+SRR12619561,ErmF,streptogramin A antibiotic,Erm 23S ribosomal RNA methyltransferase,antibiotic target alteration,14.0,99.13
+SRR12619561,ErmF,streptogramin B antibiotic,Erm 23S ribosomal RNA methyltransferase,antibiotic target alteration,14.0,99.13
+SRR12619561,aadA,aminoglycoside antibiotic,ANT(3''),antibiotic inactivation,2.0,35.61
+SRR12619561,tet(31),tetracycline antibiotic,major facilitator superfamily (MFS) antibiotic efflux pump,antibiotic efflux,8.0,61.15
+SRR12619561,OXA-347,penicillin beta-lactam,OXA beta-lactamase,antibiotic inactivation,2.0,23.39
+SRR12619561,tetB(P),tetracycline antibiotic,tetracycline-resistant ribosomal protection protein,antibiotic target protection,8.0,32.06
+SRR12619561,lnuB,lincosamide antibiotic,lincosamide nucleotidyltransferase (LNU),antibiotic inactivation,50.0,100.0
+SRR12619561,CfxA5,cephalosporin,CfxA beta-lactamase,antibiotic inactivation,2.0,27.74
+SRR12619561,mdtB,aminocoumarin antibiotic,resistance-nodulation-cell division (RND) antibiotic efflux pump,antibiotic efflux,2.0,2.24
+SRR12619561,ErmC,macrolide antibiotic,Erm 23S ribosomal RNA methyltransferase,antibiotic target alteration,34.0,97.01
+SRR12619561,ErmC,lincosamide antibiotic,Erm 23S ribosomal RNA methyltransferase,antibiotic target alteration,34.0,97.01
+SRR12619561,ErmC,streptogramin antibiotic,Erm 23S ribosomal RNA methyltransferase,antibiotic target alteration,34.0,97.01
+SRR12619561,ErmC,streptogramin A antibiotic,Erm 23S ribosomal RNA methyltransferase,antibiotic target alteration,34.0,97.01
+SRR12619561,ErmC,streptogramin B antibiotic,Erm 23S ribosomal RNA methyltransferase,antibiotic target alteration,34.0,97.01
+SRR12619561,smeE,macrolide antibiotic,resistance-nodulation-cell division (RND) antibiotic efflux pump,antibiotic efflux,2.0,2.5
+SRR12619561,smeE,fluoroquinolone antibiotic,resistance-nodulation-cell division (RND) antibiotic efflux pump,antibiotic efflux,2.0,2.5
+SRR12619561,smeE,tetracycline antibiotic,resistance-nodulation-cell division (RND) antibiotic efflux pump,antibiotic efflux,2.0,2.5
+SRR12619561,smeE,phenicol antibiotic,resistance-nodulation-cell division (RND) antibiotic efflux pump,antibiotic efflux,2.0,2.5
+SRR12619561,ANT(6)-Ia,aminoglycoside antibiotic,ANT(6),antibiotic inactivation,14.0,89.24
+SRR12619561,sul2,sulfonamide antibiotic,sulfonamide resistant sul,antibiotic target replacement,10.0,79.04
+SRR12619561,tet(40),tetracycline antibiotic,major facilitator superfamily (MFS) antibiotic efflux pump,antibiotic efflux,5.0,36.28
+SRR12619561,ErmA,macrolide antibiotic,Erm 23S ribosomal RNA methyltransferase,antibiotic target alteration,8.0,49.32
+SRR12619561,ErmA,lincosamide antibiotic,Erm 23S ribosomal RNA methyltransferase,antibiotic target alteration,8.0,49.32
+SRR12619561,ErmA,streptogramin antibiotic,Erm 23S ribosomal RNA methyltransferase,antibiotic target alteration,8.0,49.32
+SRR12619561,ErmA,streptogramin A antibiotic,Erm 23S ribosomal RNA methyltransferase,antibiotic target alteration,8.0,49.32
+SRR12619561,ErmA,streptogramin B antibiotic,Erm 23S ribosomal RNA methyltransferase,antibiotic target alteration,8.0,49.32
+SRR12619561,ugd,peptide antibiotic,pmr phosphoethanolamine transferase,antibiotic target alteration,2.0,6.08
+SRR12619561,APH(2'')-IIIa,aminoglycoside antibiotic,APH(2''),antibiotic inactivation,4.0,26.06
+SRR12619561,ErmG,macrolide antibiotic,Erm 23S ribosomal RNA methyltransferase,antibiotic target alteration,2.0,40.82
+SRR12619561,ErmG,lincosamide antibiotic,Erm 23S ribosomal RNA methyltransferase,antibiotic target alteration,2.0,40.82
+SRR12619561,ErmG,streptogramin antibiotic,Erm 23S ribosomal RNA methyltransferase,antibiotic target alteration,2.0,40.82
+SRR12619561,ErmG,streptogramin A antibiotic,Erm 23S ribosomal RNA methyltransferase,antibiotic target alteration,2.0,40.82
+SRR12619561,ErmG,streptogramin B antibiotic,Erm 23S ribosomal RNA methyltransferase,antibiotic target alteration,2.0,40.82
+SRR12619561,sul1,sulfonamide antibiotic,sulfonamide resistant sul,antibiotic target replacement,1.0,16.67
+SRR12619561,APH(6)-Id,aminoglycoside antibiotic,APH(6),antibiotic inactivation,2.0,35.84
+SRR12619561,ANT(6)-Ib,aminoglycoside antibiotic,ANT(6),antibiotic inactivation,22.0,83.22
+SRR12619561,acrB,fluoroquinolone antibiotic,resistance-nodulation-cell division (RND) antibiotic efflux pump,antibiotic efflux,4.0,4.95
+SRR12619561,acrB,cephalosporin,resistance-nodulation-cell division (RND) antibiotic efflux pump,antibiotic efflux,4.0,4.95
+SRR12619561,acrB,glycylcycline,resistance-nodulation-cell division (RND) antibiotic efflux pump,antibiotic efflux,4.0,4.95
+SRR12619561,acrB,penicillin beta-lactam,resistance-nodulation-cell division (RND) antibiotic efflux pump,antibiotic efflux,4.0,4.95
+SRR12619561,acrB,tetracycline antibiotic,resistance-nodulation-cell division (RND) antibiotic efflux pump,antibiotic efflux,4.0,4.95
+SRR12619561,acrB,rifamycin antibiotic,resistance-nodulation-cell division (RND) antibiotic efflux pump,antibiotic efflux,4.0,4.95
+SRR12619561,acrB,phenicol antibiotic,resistance-nodulation-cell division (RND) antibiotic efflux pump,antibiotic efflux,4.0,4.95
+SRR12619561,acrB,disinfecting agents and antiseptics,resistance-nodulation-cell division (RND) antibiotic efflux pump,antibiotic efflux,4.0,4.95
+SRR12619561,tet(H),tetracycline antibiotic,major facilitator superfamily (MFS) antibiotic efflux pump,antibiotic efflux,18.0,77.81
+SRR12619561,mel,macrolide antibiotic,msr-type ABC-F protein,antibiotic target protection,30.0,79.06
+SRR12619561,mel,streptogramin antibiotic,msr-type ABC-F protein,antibiotic target protection,30.0,79.06
+SRR12619561,aadA15,aminoglycoside antibiotic,ANT(3''),antibiotic inactivation,4.0,28.03
+SRR12619561,tet(44),tetracycline antibiotic,tetracycline-resistant ribosomal protection protein,antibiotic target protection,78.0,100.0
+SRR12619561,EreD,macrolide antibiotic,macrolide esterase,antibiotic inactivation,6.0,29.18
+SRR12619561,mef(B),macrolide antibiotic,major facilitator superfamily (MFS) antibiotic efflux pump,antibiotic efflux,4.0,16.75
+SRR12619561,SAT-2,nucleoside antibiotic,streptothricin acetyltransferase (SAT),antibiotic inactivation,1.0,28.57
+SRR12619561,tet(Q),tetracycline antibiotic,tetracycline-resistant ribosomal protection protein,antibiotic target protection,72.0,99.54
+SRR12619561,tet(32),tetracycline antibiotic,tetracycline-resistant ribosomal protection protein,antibiotic target protection,2.0,8.18
+SRR12619561,APH(3')-IIIa,aminoglycoside antibiotic,APH(3'),antibiotic inactivation,24.0,100.0
+SRR12619561,Erm(35),macrolide antibiotic,Erm 23S ribosomal RNA methyltransferase,antibiotic target alteration,14.0,94.13
+SRR12619561,Erm(35),lincosamide antibiotic,Erm 23S ribosomal RNA methyltransferase,antibiotic target alteration,14.0,94.13
+SRR12619561,Erm(35),streptogramin antibiotic,Erm 23S ribosomal RNA methyltransferase,antibiotic target alteration,14.0,94.13
+SRR12619561,Erm(35),streptogramin A antibiotic,Erm 23S ribosomal RNA methyltransferase,antibiotic target alteration,14.0,94.13
+SRR12619561,Erm(35),streptogramin B antibiotic,Erm 23S ribosomal RNA methyltransferase,antibiotic target alteration,14.0,94.13
+SRR12619561,tet(K),tetracycline antibiotic,major facilitator superfamily (MFS) antibiotic efflux pump,antibiotic efflux,2.0,21.74
+SRR12619561,ErmB,macrolide antibiotic,Erm 23S ribosomal RNA methyltransferase,antibiotic target alteration,28.0,99.87
+SRR12619561,ErmB,lincosamide antibiotic,Erm 23S ribosomal RNA methyltransferase,antibiotic target alteration,28.0,99.87
+SRR12619561,ErmB,streptogramin antibiotic,Erm 23S ribosomal RNA methyltransferase,antibiotic target alteration,28.0,99.87
+SRR12619561,ErmB,streptogramin A antibiotic,Erm 23S ribosomal RNA methyltransferase,antibiotic target alteration,28.0,99.87
+SRR12619561,ErmB,streptogramin B antibiotic,Erm 23S ribosomal RNA methyltransferase,antibiotic target alteration,28.0,99.87
+SRR12619561,aad(6),aminoglycoside antibiotic,ANT(6),antibiotic inactivation,8.0,47.77
+SRR12619561,SAT-4,nucleoside antibiotic,streptothricin acetyltransferase (SAT),antibiotic inactivation,6.0,83.24
+SRR12619561,vgaE,lincosamide antibiotic,vga-type ABC-F protein,antibiotic target protection,8.0,55.62
+SRR12619561,vgaE,streptogramin antibiotic,vga-type ABC-F protein,antibiotic target protection,8.0,55.62
+SRR12619561,vgaE,streptogramin A antibiotic,vga-type ABC-F protein,antibiotic target protection,8.0,55.62
+SRR12619561,vgaE,pleuromutilin antibiotic,vga-type ABC-F protein,antibiotic target protection,8.0,55.62
+SRR12619561,vanR gene in vanG cluster,glycopeptide antibiotic,glycopeptide resistance gene cluster; vanR,antibiotic target alteration,2.0,12.57
+SRR12619561,catQ,phenicol antibiotic,chloramphenicol acetyltransferase (CAT),antibiotic inactivation,2.0,22.73
+SRR12619561,tet(S),tetracycline antibiotic,tetracycline-resistant ribosomal protection protein,antibiotic target protection,6.0,31.57
+SRR12619561,mphB,macrolide antibiotic,macrolide phosphotransferase (MPH),antibiotic inactivation,26.0,95.16
+SRR12619561,aadA24,aminoglycoside antibiotic,ANT(3''),antibiotic inactivation,1.0,18.97
+SRR12619561,ANT(4')-Ia,aminoglycoside antibiotic,ANT(4'),antibiotic inactivation,14.0,84.91
+SRR12619561,Erm(33),macrolide antibiotic,Erm 23S ribosomal RNA methyltransferase,antibiotic target alteration,16.0,44.54
+SRR12619561,Erm(33),lincosamide antibiotic,Erm 23S ribosomal RNA methyltransferase,antibiotic target alteration,16.0,44.54
+SRR12619561,Erm(33),streptogramin antibiotic,Erm 23S ribosomal RNA methyltransferase,antibiotic target alteration,16.0,44.54
+SRR12619561,Erm(33),streptogramin A antibiotic,Erm 23S ribosomal RNA methyltransferase,antibiotic target alteration,16.0,44.54
+SRR12619561,Erm(33),streptogramin B antibiotic,Erm 23S ribosomal RNA methyltransferase,antibiotic target alteration,16.0,44.54
+SRR12619561,tet(M),tetracycline antibiotic,tetracycline-resistant ribosomal protection protein,antibiotic target protection,228.0,100.0
+SRR12619561,tet(36),tetracycline antibiotic,tetracycline-resistant ribosomal protection protein,antibiotic target protection,90.0,99.32
+SRR12619561,APH(3'')-Ib,aminoglycoside antibiotic,APH(3''),antibiotic inactivation,8.0,95.77
+SRR12619561,vgaB,streptogramin antibiotic,vga-type ABC-F protein,antibiotic target protection,4.0,9.34
+SRR12619561,vgaB,streptogramin A antibiotic,vga-type ABC-F protein,antibiotic target protection,4.0,9.34
+SRR12619561,vgaB,pleuromutilin antibiotic,vga-type ABC-F protein,antibiotic target protection,4.0,9.34
+SRR12619561,linG,lincosamide antibiotic,lincosamide nucleotidyltransferase (LNU),antibiotic inactivation,4.0,46.47
+SRR12619561,aadA8,aminoglycoside antibiotic,ANT(3''),antibiotic inactivation,2.0,24.37
+SRR12619561,AAC(6')-Ib7,aminoglycoside antibiotic,AAC(6'),antibiotic inactivation,2.0,17.94
+SRR12619561,vgaC,lincosamide antibiotic,vga-type ABC-F protein,antibiotic target protection,14.0,84.0
+SRR12619561,vgaC,streptogramin antibiotic,vga-type ABC-F protein,antibiotic target protection,14.0,84.0
+SRR12619561,vgaC,streptogramin A antibiotic,vga-type ABC-F protein,antibiotic target protection,14.0,84.0
+SRR12619561,vgaC,pleuromutilin antibiotic,vga-type ABC-F protein,antibiotic target protection,14.0,84.0
+SRR12619561,tet(33),tetracycline antibiotic,major facilitator superfamily (MFS) antibiotic efflux pump,antibiotic efflux,2.0,24.51
+SRR12619561,tet(O),tetracycline antibiotic,tetracycline-resistant ribosomal protection protein,antibiotic target protection,20.0,83.02
+SRR12619561,tet(T),tetracycline antibiotic,tetracycline-resistant ribosomal protection protein,antibiotic target protection,206.0,100.0
+SRR12619561,AAC(6')-Im,aminoglycoside antibiotic,AAC(6'),antibiotic inactivation,2.0,55.87
+SRR12619561,Erm(47),macrolide antibiotic,Erm 23S ribosomal RNA methyltransferase,antibiotic target alteration,18.0,100.0
+SRR12619561,Erm(47),lincosamide antibiotic,Erm 23S ribosomal RNA methyltransferase,antibiotic target alteration,18.0,100.0
+SRR12619561,Erm(47),streptogramin antibiotic,Erm 23S ribosomal RNA methyltransferase,antibiotic target alteration,18.0,100.0
+SRR12619561,Erm(47),streptogramin B antibiotic,Erm 23S ribosomal RNA methyltransferase,antibiotic target alteration,18.0,100.0
+SRR12619561,LnuP,lincosamide antibiotic,lincosamide nucleotidyltransferase (LNU),antibiotic inactivation,6.0,69.66
+SRR12619561,aadS,aminoglycoside antibiotic,ANT(6),antibiotic inactivation,6.0,34.61
+SRR12619561,vga(E) Staphylococcus cohnii,lincosamide antibiotic,vga-type ABC-F protein,antibiotic target protection,2.0,13.71
+SRR12619561,vga(E) Staphylococcus cohnii,streptogramin antibiotic,vga-type ABC-F protein,antibiotic target protection,2.0,13.71
+SRR12619561,vga(E) Staphylococcus cohnii,streptogramin A antibiotic,vga-type ABC-F protein,antibiotic target protection,2.0,13.71
+SRR12619561,vga(E) Staphylococcus cohnii,pleuromutilin antibiotic,vga-type ABC-F protein,antibiotic target protection,2.0,13.71
+SRR12619561,tet(X4),glycylcycline,tetracycline inactivation enzyme,antibiotic inactivation,2.0,2.94
+SRR12619561,tet(X4),tetracycline antibiotic,tetracycline inactivation enzyme,antibiotic inactivation,2.0,2.94
+SRR12619561,tet(L),tetracycline antibiotic,major facilitator superfamily (MFS) antibiotic efflux pump,antibiotic efflux,6.0,41.1
+SRR12619561,lnuG,lincosamide antibiotic,lincosamide nucleotidyltransferase (LNU),antibiotic inactivation,24.0,85.7
+SRR12619561,cfrC,lincosamide antibiotic,Cfr 23S ribosomal RNA methyltransferase,antibiotic target alteration,4.0,19.23
+SRR12619561,cfrC,streptogramin antibiotic,Cfr 23S ribosomal RNA methyltransferase,antibiotic target alteration,4.0,19.23
+SRR12619561,cfrC,oxazolidinone antibiotic,Cfr 23S ribosomal RNA methyltransferase,antibiotic target alteration,4.0,19.23
+SRR12619561,cfrC,phenicol antibiotic,Cfr 23S ribosomal RNA methyltransferase,antibiotic target alteration,4.0,19.23
+SRR12619561,tet(W/N/W),tetracycline antibiotic,tetracycline-resistant ribosomal protection protein,antibiotic target protection,14.0,47.71
+SRR12619561,qacEdelta1,disinfecting agents and antiseptics,major facilitator superfamily (MFS) antibiotic efflux pump,antibiotic efflux,3.0,77.01
+SRR12619561,23S rRNA (adenine(2058)-N(6))-methyltransferase Erm(A),macrolide antibiotic,Erm 23S ribosomal RNA methyltransferase,antibiotic target alteration,34.0,86.34
+SRR12619561,23S rRNA (adenine(2058)-N(6))-methyltransferase Erm(A),lincosamide antibiotic,Erm 23S ribosomal RNA methyltransferase,antibiotic target alteration,34.0,86.34
+SRR12619561,23S rRNA (adenine(2058)-N(6))-methyltransferase Erm(A),streptogramin antibiotic,Erm 23S ribosomal RNA methyltransferase,antibiotic target alteration,34.0,86.34
+SRR12619561,Bifidobacterium bifidum ileS conferring resistance to mupirocin,mupirocin-like antibiotic,antibiotic-resistant isoleucyl-tRNA synthetase (ileS),antibiotic target alteration,2.0,2.23
+SRR12619561,Bifidobacterium adolescentis rpoB mutants conferring resistance to rifampicin,rifamycin antibiotic,rifamycin-resistant beta-subunit of RNA polymerase (rpoB),antibiotic target alteration; antibiotic target replacement,4.0,9.52
+SRR12619561,LnuH,lincosamide antibiotic,lincosamide nucleotidyltransferase (LNU),antibiotic inactivation,18.0,96.68
+SRR12619561,tet(O/M/O),tetracycline antibiotic,tetracycline-resistant ribosomal protection protein,antibiotic target protection,18.0,45.47
+SRR12619561,tet(O/W),tetracycline antibiotic,tetracycline-resistant ribosomal protection protein,antibiotic target protection,6.0,31.35
+SRR12619561,tet(O/32/O),tetracycline antibiotic,tetracycline-resistant ribosomal protection protein,antibiotic target protection,8.0,19.32
+SRR12619561,tet(O/W/32/O),tetracycline antibiotic,tetracycline-resistant ribosomal protection protein,antibiotic target protection,7.0,38.91
+SRR12619561,tet(O/W/O),tetracycline antibiotic,tetracycline-resistant ribosomal protection protein,antibiotic target protection,2.0,14.43
+SRR12619561,tet(W/32/O),tetracycline antibiotic,tetracycline-resistant ribosomal protection protein,antibiotic target protection,2.0,15.16
+SRR12619561,tet(X6),tetracycline antibiotic,tetracycline inactivation enzyme,antibiotic inactivation,5.0,43.8
+SRR12619561,ANT(9)-Ib,aminoglycoside antibiotic,ANT(9),antibiotic inactivation,4.0,25.13
+SRR12619561,AAC(3)-IVa,aminoglycoside antibiotic,AAC(3),antibiotic inactivation,4.0,47.1
+SRR12619561,EstT,macrolide antibiotic,macrolide esterase,antibiotic inactivation,57.0,100.0
+SRR12619561,cfrE,lincosamide antibiotic,Cfr 23S ribosomal RNA methyltransferase,antibiotic target alteration,18.0,80.48
+SRR12619561,cfrE,streptogramin antibiotic,Cfr 23S ribosomal RNA methyltransferase,antibiotic target alteration,18.0,80.48
+SRR12619561,cfrE,oxazolidinone antibiotic,Cfr 23S ribosomal RNA methyltransferase,antibiotic target alteration,18.0,80.48
+SRR12619561,cfrE,phenicol antibiotic,Cfr 23S ribosomal RNA methyltransferase,antibiotic target alteration,18.0,80.48
+SRR12619561,cfrE,pleuromutilin antibiotic,Cfr 23S ribosomal RNA methyltransferase,antibiotic target alteration,18.0,80.48
+SRR12619561,Clostridium sporogenes cplR,lincosamide antibiotic,Miscellaneous ABC-F subfamily ATP-binding cassette ribosomal protection proteins,antibiotic target protection,2.0,2.77
+SRR12619561,Clostridium sporogenes cplR,antibiotic without defined classification,Miscellaneous ABC-F subfamily ATP-binding cassette ribosomal protection proteins,antibiotic target protection,2.0,2.77
+SRR12619561,Clostridium sporogenes cplR,pleuromutilin antibiotic,Miscellaneous ABC-F subfamily ATP-binding cassette ribosomal protection proteins,antibiotic target protection,2.0,2.77

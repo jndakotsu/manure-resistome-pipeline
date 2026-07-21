@@ -1,0 +1,29 @@
+drug_class,SRR12619551,SRR12619561,total_genes
+tetracycline antibiotic,12,28,40
+macrolide antibiotic,15,16,31
+lincosamide antibiotic,3,24,27
+aminoglycoside antibiotic,7,18,25
+streptogramin antibiotic,1,18,19
+phenicol antibiotic,8,5,13
+fluoroquinolone antibiotic,11,2,13
+streptogramin A antibiotic,0,12,12
+rifamycin antibiotic,9,2,11
+streptogramin B antibiotic,0,9,9
+cephalosporin,6,3,9
+penicillin beta-lactam,6,2,8
+pleuromutilin antibiotic,1,7,8
+disinfecting agents and antiseptics,5,2,7
+aminocoumarin antibiotic,4,1,5
+monobactam,4,0,4
+carbapenem,4,0,4
+diaminopyrimidine antibiotic,3,1,4
+glycopeptide antibiotic,3,1,4
+glycylcycline,1,2,3
+nucleoside antibiotic,0,2,2
+peptide antibiotic,1,1,2
+mupirocin-like antibiotic,1,1,2
+oxazolidinone antibiotic,0,2,2
+sulfonamide antibiotic,0,2,2
+antibiotic without defined classification,0,1,1
+isoniazid-like antibiotic,1,0,1
+nitrofuran antibiotic,1,0,1
