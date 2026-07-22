@@ -4,6 +4,7 @@ from scipy.stats import mannwhitneyu
 from statsmodels.stats.multitest import multipletests
 from sklearn.decomposition import PCA
 from sklearn.preprocessing import StandardScaler
+from adjustText import adjust_text
 import matplotlib.pyplot as plt
 import seaborn as sns
 
@@ -59,8 +60,10 @@ colors = {"manure": "#8B4513", "soil": "#556B2F"}
 for lbl in ["manure", "soil"]:
     mask = labels == lbl
     plt.scatter(pcs[mask, 0], pcs[mask, 1], label=lbl, s=100, color=colors[lbl], edgecolor="black")
+texts = []
 for i, srr in enumerate(X.index):
-    plt.annotate(srr.replace("SRR126195", ""), (pcs[i, 0], pcs[i, 1]), fontsize=8, xytext=(5, 5), textcoords="offset points")
+    texts.append(plt.text(pcs[i, 0], pcs[i, 1], srr.replace("SRR126195", ""), fontsize=8))
+adjust_text(texts, arrowprops=dict(arrowstyle="-", color="gray", lw=0.5))
 plt.xlabel(f"PC1 ({pca.explained_variance_ratio_[0]*100:.1f}% variance)")
 plt.ylabel(f"PC2 ({pca.explained_variance_ratio_[1]*100:.1f}% variance)")
 plt.title("PCA of AMR Gene Abundance: Manure vs. Soil (n=6 each)")
