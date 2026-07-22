@@ -9,11 +9,13 @@ sequencing data and a Mann-Whitney U + FDR-corrected testing pipeline.
 This project started as a 2-sample (1 manure vs. 1 soil) descriptive comparison
 of AMR gene presence/absence. That version could describe differences between
 two specific samples but couldn't support any general claim about manure vs.
-soil resistomes — with n=1 per group, an observed difference could just as
+soil resistomes  with n=1 per group, an observed difference could just as
 easily reflect individual sample variation as a real biological pattern.
 
 This version extends that same comparison to 12 samples (6 manure, 6 soil),
-adding proper statistical testing so the results can actually be trusted.
+adding proper statistical testing 
+
+> The original 2-sample pilot analysis is preserved separately in [amr-resistome-pilot](https://github.com/Joshbfaaaa/amr-resistome-pilot).
 
 ## Pipeline
 
