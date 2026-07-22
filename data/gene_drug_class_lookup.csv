@@ -1,0 +1,227 @@
+ARO Term,Drug Class
+Streptomyces lividans cmlR,phenicol antibiotic
+amrB,macrolide antibiotic; aminoglycoside antibiotic
+AAC(6')-Isa,aminoglycoside antibiotic
+rphA,rifamycin antibiotic
+ceoB,fluoroquinolone antibiotic; aminoglycoside antibiotic
+AcrF,fluoroquinolone antibiotic; cephalosporin; penicillin beta-lactam
+smeB,aminoglycoside antibiotic; cephalosporin; penicillin beta-lactam
+tlrC,macrolide antibiotic; lincosamide antibiotic
+Pseudomonas aeruginosa CpxR,macrolide antibiotic; fluoroquinolone antibiotic; monobactam; aminoglycoside antibiotic; carbapenem; cephalosporin; penicillin beta-lactam; tetracycline antibiotic; peptide antibiotic; aminocoumarin antibiotic; diaminopyrimidine antibiotic; sulfonamide antibiotic; phenicol antibiotic
+MexF,fluoroquinolone antibiotic; diaminopyrimidine antibiotic; phenicol antibiotic
+MuxB,macrolide antibiotic; monobactam; tetracycline antibiotic; aminocoumarin antibiotic
+MuxC,macrolide antibiotic; monobactam; tetracycline antibiotic; aminocoumarin antibiotic
+AxyY,macrolide antibiotic; fluoroquinolone antibiotic; aminoglycoside antibiotic; cephalosporin
+rpoB2,rifamycin antibiotic
+Bifidobacterium bifidum ileS conferring resistance to mupirocin,mupirocin-like antibiotic
+Bifidobacterium adolescentis rpoB mutants conferring resistance to rifampicin,rifamycin antibiotic
+MexI,fluoroquinolone antibiotic; disinfecting agents and antiseptics
+vanR gene in vanO cluster,glycopeptide antibiotic
+vanS gene in vanO cluster,glycopeptide antibiotic
+Streptomyces venezuelae rox,rifamycin antibiotic
+Nocardia farcinica rox,rifamycin antibiotic
+HelR,rifamycin antibiotic
+AAC(3)-VIIIa,aminoglycoside antibiotic
+novA,aminocoumarin antibiotic
+amrA,macrolide antibiotic; aminoglycoside antibiotic
+arnA,peptide antibiotic
+gimA,macrolide antibiotic
+MexK,macrolide antibiotic; tetracycline antibiotic
+FAR-1,penicillin beta-lactam
+rphB,rifamycin antibiotic
+BCL-1,penicillin beta-lactam
+ADC-202,cephalosporin
+ACT-53,carbapenem; cephalosporin; penicillin beta-lactam
+ALG11-1,carbapenem
+vanO,glycopeptide antibiotic
+BJP-1,carbapenem
+mexN,phenicol antibiotic
+AST-1,cephalosporin; penicillin beta-lactam
+DHT2-1,carbapenem
+rgt1438,rifamycin antibiotic
+mexX,macrolide antibiotic; fluoroquinolone antibiotic; aminoglycoside antibiotic; carbapenem; cephalosporin; penicillin beta-lactam; tetracycline antibiotic; phenicol antibiotic; disinfecting agents and antiseptics
+AAC(3)-IIIb,aminoglycoside antibiotic
+iri,rifamycin antibiotic
+H-NS,macrolide antibiotic; fluoroquinolone antibiotic; cephalosporin; penicillin beta-lactam; tetracycline antibiotic
+smeR,aminoglycoside antibiotic; cephalosporin; penicillin beta-lactam
+MexB,
+TriC,disinfecting agents and antiseptics
+arr-1,rifamycin antibiotic
+ParS,macrolide antibiotic; fluoroquinolone antibiotic; monobactam; aminoglycoside antibiotic; carbapenem; cephalosporin; penicillin beta-lactam; tetracycline antibiotic; phenicol antibiotic; disinfecting agents and antiseptics
+ALG6-1,carbapenem
+PEN-A10,penicillin beta-lactam
+PEN-A1,penicillin beta-lactam
+lnuA,lincosamide antibiotic
+aadA9,aminoglycoside antibiotic
+lsaE,lincosamide antibiotic; streptogramin antibiotic; pleuromutilin antibiotic
+smeD,macrolide antibiotic; fluoroquinolone antibiotic; tetracycline antibiotic; phenicol antibiotic
+tet(W),tetracycline antibiotic
+aadA,aminoglycoside antibiotic
+tetA(P),tetracycline antibiotic
+ErmF,macrolide antibiotic; lincosamide antibiotic; streptogramin antibiotic; streptogramin A antibiotic; streptogramin B antibiotic
+tet(31),tetracycline antibiotic
+lnuB,lincosamide antibiotic
+OXA-347,penicillin beta-lactam
+tetB(P),tetracycline antibiotic
+ANT(6)-Ia,aminoglycoside antibiotic
+fexA,phenicol antibiotic
+sul2,sulfonamide antibiotic
+tet(40),tetracycline antibiotic
+sul1,sulfonamide antibiotic
+APH(6)-Id,aminoglycoside antibiotic
+tet(H),tetracycline antibiotic
+ANT(6)-Ib,aminoglycoside antibiotic
+mel,macrolide antibiotic; streptogramin antibiotic
+mef(B),macrolide antibiotic
+tet(Q),tetracycline antibiotic
+tet(44),tetracycline antibiotic
+SAT-2,nucleoside antibiotic
+ANT(9)-Ia,aminoglycoside antibiotic
+cmx,phenicol antibiotic
+aadA5,aminoglycoside antibiotic
+tet(S),tetracycline antibiotic
+FosK,phosphonic acid antibiotic
+CARB-8,penicillin beta-lactam
+tet(M),tetracycline antibiotic
+lnuD,lincosamide antibiotic
+APH(3'')-Ib,aminoglycoside antibiotic
+spd,aminoglycoside antibiotic
+tet(36),tetracycline antibiotic
+tet(A),tetracycline antibiotic
+tet(Z),tetracycline antibiotic
+vanS gene in vanA cluster,glycopeptide antibiotic
+AAC(6')-Ib7,aminoglycoside antibiotic
+tet(33),tetracycline antibiotic
+tet(T),tetracycline antibiotic
+MexW,macrolide antibiotic; fluoroquinolone antibiotic; tetracycline antibiotic; phenicol antibiotic; disinfecting agents and antiseptics
+PEDO-2,carbapenem
+vanR gene in vanI cluster,glycopeptide antibiotic
+floR,phenicol antibiotic
+aadA27,aminoglycoside antibiotic
+aadS,aminoglycoside antibiotic
+OXA-300,carbapenem; penicillin beta-lactam
+lnuG,lincosamide antibiotic
+poxtA,tetracycline antibiotic; oxazolidinone antibiotic; phenicol antibiotic
+tet(W/N/W),tetracycline antibiotic
+qacEdelta1,disinfecting agents and antiseptics
+OXA-276,carbapenem; penicillin beta-lactam
+23S rRNA (adenine(2058)-N(6))-methyltransferase Erm(A),macrolide antibiotic; lincosamide antibiotic; streptogramin antibiotic
+OXA-670,carbapenem; penicillin beta-lactam
+LnuH,lincosamide antibiotic
+tet(O/M/O),tetracycline antibiotic
+tet(X6),tetracycline antibiotic
+EstT,macrolide antibiotic
+cfrE,lincosamide antibiotic; streptogramin antibiotic; oxazolidinone antibiotic; phenicol antibiotic; pleuromutilin antibiotic
+IND-17,carbapenem
+dfrL,aminoglycoside antibiotic; tetracycline antibiotic; diaminopyrimidine antibiotic
+tet(X),glycylcycline; tetracycline antibiotic
+smeE,macrolide antibiotic; fluoroquinolone antibiotic; tetracycline antibiotic; phenicol antibiotic
+mecI,penicillin beta-lactam
+tet(G),tetracycline antibiotic
+SAT-4,nucleoside antibiotic
+mphB,macrolide antibiotic
+linG,lincosamide antibiotic
+tet(O),tetracycline antibiotic
+cdeA,fluoroquinolone antibiotic; disinfecting agents and antiseptics
+tet(L),tetracycline antibiotic
+mphO,macrolide antibiotic
+YajC,fluoroquinolone antibiotic; cephalosporin; glycylcycline; penicillin beta-lactam; tetracycline antibiotic; oxazolidinone antibiotic; glycopeptide antibiotic; rifamycin antibiotic; phenicol antibiotic; disinfecting agents and antiseptics
+mef(H),macrolide antibiotic
+tet(W/32/O),tetracycline antibiotic
+erm(56),macrolide antibiotic; lincosamide antibiotic; streptogramin antibiotic; streptogramin B antibiotic
+ErmQ,macrolide antibiotic; lincosamide antibiotic; streptogramin antibiotic; streptogramin A antibiotic; streptogramin B antibiotic
+APH(3')-Ia,aminoglycoside antibiotic
+OpmD,fluoroquinolone antibiotic; disinfecting agents and antiseptics
+mfpA,fluoroquinolone antibiotic
+acrB,fluoroquinolone antibiotic; cephalosporin; glycylcycline; penicillin beta-lactam; tetracycline antibiotic; rifamycin antibiotic; phenicol antibiotic; disinfecting agents and antiseptics
+EreD,macrolide antibiotic
+tet(32),tetracycline antibiotic
+AAC(6')-Ip,aminoglycoside antibiotic
+aadA6,aminoglycoside antibiotic
+Bacillus pumilus cat86,phenicol antibiotic
+LnuP,lincosamide antibiotic
+efpA,rifamycin antibiotic; isoniazid-like antibiotic
+Mef(En2),macrolide antibiotic; lincosamide antibiotic
+mgtA,macrolide antibiotic
+cmlA9,phenicol antibiotic
+PDC-450,monobactam; carbapenem; cephalosporin
+OXA-114s,penicillin beta-lactam
+tet(X3),glycylcycline; tetracycline antibiotic
+mef(C),macrolide antibiotic; tetracycline antibiotic
+RAD-1,carbapenem; cephalosporin
+CfxA4,cephalosporin
+lnuC,lincosamide antibiotic
+dfrD,diaminopyrimidine antibiotic
+tet(Y),tetracycline antibiotic
+TUS-1,carbapenem; cephalosporin; penicillin beta-lactam
+lmrB,lincosamide antibiotic; nucleoside antibiotic
+QnrD1,fluoroquinolone antibiotic
+ErmC,macrolide antibiotic; lincosamide antibiotic; streptogramin antibiotic; streptogramin A antibiotic; streptogramin B antibiotic
+ErmA,macrolide antibiotic; lincosamide antibiotic; streptogramin antibiotic; streptogramin A antibiotic; streptogramin B antibiotic
+ErmG,macrolide antibiotic; lincosamide antibiotic; streptogramin antibiotic; streptogramin A antibiotic; streptogramin B antibiotic
+APH(2'')-IIIa,aminoglycoside antibiotic
+ErmT,macrolide antibiotic; lincosamide antibiotic; streptogramin antibiotic; streptogramin A antibiotic; streptogramin B antibiotic
+APH(3')-IIIa,aminoglycoside antibiotic
+Erm(35),macrolide antibiotic; lincosamide antibiotic; streptogramin antibiotic; streptogramin A antibiotic; streptogramin B antibiotic
+aadA7,aminoglycoside antibiotic
+ErmB,macrolide antibiotic; lincosamide antibiotic; streptogramin antibiotic; streptogramin A antibiotic; streptogramin B antibiotic
+aad(6),aminoglycoside antibiotic
+APH(2'')-IIa,aminoglycoside antibiotic
+vgaE,lincosamide antibiotic; streptogramin antibiotic; streptogramin A antibiotic; pleuromutilin antibiotic
+vanR gene in vanG cluster,glycopeptide antibiotic
+ANT(4')-Ia,aminoglycoside antibiotic
+Erm(33),macrolide antibiotic; lincosamide antibiotic; streptogramin antibiotic; streptogramin A antibiotic; streptogramin B antibiotic
+lsaC,lincosamide antibiotic; streptogramin antibiotic; pleuromutilin antibiotic
+aadA13,aminoglycoside antibiotic
+vgaC,lincosamide antibiotic; streptogramin antibiotic; streptogramin A antibiotic; pleuromutilin antibiotic
+Erm(47),macrolide antibiotic; lincosamide antibiotic; streptogramin antibiotic; streptogramin B antibiotic
+AAC(6')-Im,aminoglycoside antibiotic
+cfrC,lincosamide antibiotic; streptogramin antibiotic; oxazolidinone antibiotic; phenicol antibiotic
+ADC-19,cephalosporin
+Streptococcus suis chloramphenicol acetyltransferase,phenicol antibiotic
+mphE,macrolide antibiotic
+CepA-44,cephalosporin
+qacG,disinfecting agents and antiseptics
+msr(G),macrolide antibiotic; streptogramin antibiotic
+tet(O/W/32/O),tetracycline antibiotic
+tet(O/W),tetracycline antibiotic
+AAC(6')-Ie-APH(2'')-Ia bifunctional protein,aminoglycoside antibiotic
+AAC(3)-IVa,aminoglycoside antibiotic
+BMHC-1,carbapenem
+lmrC,lincosamide antibiotic
+APH(6)-Ia,aminoglycoside antibiotic
+putative nickel/cobalt transporter,fluoroquinolone antibiotic; aminoglycoside antibiotic; isoniazid-like antibiotic
+OprJ,macrolide antibiotic; fluoroquinolone antibiotic; aminoglycoside antibiotic; cephalosporin; penicillin beta-lactam; tetracycline antibiotic; aminocoumarin antibiotic; diaminopyrimidine antibiotic; phenicol antibiotic
+ErmV,macrolide antibiotic; lincosamide antibiotic; streptogramin antibiotic
+oleC,macrolide antibiotic
+oqxB,fluoroquinolone antibiotic; glycylcycline; tetracycline antibiotic; diaminopyrimidine antibiotic; nitrofuran antibiotic
+CfxA6,cephalosporin
+cfrA,lincosamide antibiotic; streptogramin antibiotic; streptogramin A antibiotic; oxazolidinone antibiotic; phenicol antibiotic; pleuromutilin antibiotic
+vatH,streptogramin antibiotic; streptogramin A antibiotic
+IND-1,carbapenem
+adeA,glycylcycline; tetracycline antibiotic
+tet(K),tetracycline antibiotic
+catQ,phenicol antibiotic
+AAC(6')-It,aminoglycoside antibiotic
+aadA8,aminoglycoside antibiotic
+vga(E) Staphylococcus cohnii,lincosamide antibiotic; streptogramin antibiotic; streptogramin A antibiotic; pleuromutilin antibiotic
+efrA,macrolide antibiotic; fluoroquinolone antibiotic; rifamycin antibiotic
+CARB-52,penicillin beta-lactam
+lsaD,lincosamide antibiotic; streptogramin antibiotic; streptogramin A antibiotic; pleuromutilin antibiotic
+tet(O/32/O),tetracycline antibiotic
+ANT(9)-Ib,aminoglycoside antibiotic
+WUS-1,carbapenem; penicillin beta-lactam
+CfxA,cephalosporin
+vanR gene in vanA cluster,glycopeptide antibiotic
+lsaB,lincosamide antibiotic; streptogramin antibiotic; pleuromutilin antibiotic
+Erm(43),macrolide antibiotic; lincosamide antibiotic; streptogramin antibiotic; streptogramin B antibiotic
+ErmY,macrolide antibiotic; lincosamide antibiotic; streptogramin antibiotic
+aadA14,aminoglycoside antibiotic
+mphM,macrolide antibiotic
+OXA-293,carbapenem; penicillin beta-lactam
+tva(A),pleuromutilin antibiotic
+Enterococcus faecium chloramphenicol acetyltransferase,phenicol antibiotic
+DfrA36,diaminopyrimidine antibiotic
+OXA-786,penicillin beta-lactam
+mef(F),macrolide antibiotic
+OXA-999,penicillin beta-lactam

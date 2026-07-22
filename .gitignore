@@ -1,0 +1,4 @@
+raw_fastq/
+trimmed_fastq/
+rgi_results/
+logs/

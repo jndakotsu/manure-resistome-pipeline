@@ -1,90 +1,99 @@
-# Manure Resistome Profiling: A Real Raw-Reads AMR Detection Pipeline
+# AMR Resistome Comparison: Manure vs. Soil
 
-A raw-reads-to-results pipeline that detects and compares antimicrobial resistance (AMR)
-genes in real shotgun metagenomic sequencing data from livestock manure, using the
-Comprehensive Antibiotic Resistance Database (CARD) and the Resistance Gene Identifier (RGI).
+A statistical comparison of antimicrobial resistance (AMR) gene profiles between
+manure-associated and soil-associated metagenomic samples, using public
+sequencing data and a Mann-Whitney U + FDR-corrected testing pipeline.
 
-Manure is a recognized environmental reservoir for AMR genes, and understanding what resistance
-genes are actually present and how they differ between sources  is directly relevant to
-composting and manure management practices intended to reduce resistance gene spread before
-land application.
+## Background
 
-## What this demonstrates
+This project started as a 2-sample (1 manure vs. 1 soil) descriptive comparison
+of AMR gene presence/absence. That version could describe differences between
+two specific samples but couldn't support any general claim about manure vs.
+soil resistomes — with n=1 per group, an observed difference could just as
+easily reflect individual sample variation as a real biological pattern.
 
-- A complete raw-reads bioinformatics workflow: public SRA data retrieval, quality control,
-  and reference-based AMR gene detection — not just downstream analysis of a pre-built table
-- Use of RGI (bwt mode) against the CARD database, the standard academic tool/database
-  pairing for antimicrobial resistance gene detection
-- Direct comparison of resistomes between two real manure metagenome samples, at both the
-  individual gene and drug-class level
-- Honest reporting of a low read-mapping rate (AMR genes are a small fraction of any
-  metagenome) without overstating what a small, subsampled dataset can support
+This version extends that same comparison to 12 samples (6 manure, 6 soil),
+adding proper statistical testing so the results can actually be trusted.
 
-## Data
+## Pipeline
 
-Real paired-end Illumina shotgun metagenomic reads from NCBI BioProject PRJNA662623
-(https://www.ncbi.nlm.nih.gov/bioproject/PRJNA662623), a study on swine and cattle manure
-resistomes. Two samples (SRR12619551, SRR12619561), each subsampled to 500,000 read pairs
-for tractable processing.
+![Pipeline flowchart](figures/pipeline_flowchart.svg)
 
-Note on scope: each sample was subsampled from its full sequencing depth, and results are
-based on 2 samples — enough to demonstrate the pipeline and detect a real, interpretable
-signal, but not a statistically powered comparison across manure types. This is a descriptive
-and comparative resistome profiling project, not a predictive model.
+1. **Download samples** — pull 12 SRR accessions from SRA (6 manure, 6 soil,
+   balanced by isolation source)
+2. **RGI / CARD alignment** — identify AMR gene presence/abundance per sample
+   against the CARD database
+3. **Build abundance matrix** — merge per-sample results into a single
+   gene x sample matrix, labeled by source
+4. **Mann-Whitney U + FDR** — test each gene for a significant difference
+   between manure and soil groups, then apply Benjamini-Hochberg correction
+   across all genes tested
+5. **PCA + heatmap** — visualize how samples cluster and which genes drive
+   the separation
 
-## Project structure
+## Results
 
-manure-resistome-pipeline/
+- **226** AMR genes detected across all 12 samples
+- **55** genes significant at raw p < 0.05
+- **23** genes (10.2%) remain significant after FDR correction — the number
+  that actually matters, since testing 226 genes means several would clear
+  p < 0.05 by chance alone
+- **19 manure-enriched, 4 soil-enriched** among the 23 FDR-significant genes
+
+### Key finding
+
+Manure-enriched genes cluster almost entirely in antibiotic classes
+associated with livestock use: tetracycline (6 genes, including `tet(M)` at a
+mean of 147.5 reads in manure vs. 0 in soil), macrolide, lincosamide,
+aminoglycoside, and sulfonamide resistance. Soil-enriched genes (`rphA`,
+`HelR`, `vanR` in the vanO cluster, `ceoB`) instead reflect resistance
+mechanisms more typical of intrinsic/environmental bacteria — rifamycin,
+glycopeptide, and efflux-based resistance — rather than agricultural
+exposure.
+
+See `results/gene_mannwhitney_significant_only.csv` for the full list of
+23 significant genes, and `figures/pca_manure_vs_soil.png` /
+`figures/heatmap_top_genes.png` for the visualizations.
+
+## Repo structure
+
+```
+.
 ├── data/
-│   ├── SRR12619551_gene_results.csv
-│   └── SRR12619561_gene_results.csv
+│   ├── accessions.txt
+│   └── sample_metadata.csv
+├── scripts/
+│   ├── 02_run_rgi.sh
+│   ├── 03_merge_rgi_results.py
+│   ├── 04_analyze_resistome_stats.py
+│   └── 05_list_significant_genes.py
+├── results/
+│   ├── amr_abundance_matrix.csv
+│   ├── gene_mannwhitney_results.csv
+│   └── gene_mannwhitney_significant_only.csv
 ├── figures/
-│   ├── top_genes_comparison.png
-│   ├── gene_overlap.png
-│   └── drug_class_breakdown.png
-├── RESULTS.md
+│   ├── pipeline_flowchart.svg
+│   ├── pca_manure_vs_soil.png
+│   └── heatmap_top_genes.png
 └── README.md
+```
 
-## Method summary
+## Methods notes
 
-1. Data retrieval — sequencing runs identified via NCBI Entrez Direct from BioProject
-   PRJNA662623; reads pulled directly via fastq-dump (500,000 read pairs per sample).
-2. Quality control — adapter trimming and quality filtering with fastp.
-3. AMR gene detection — trimmed reads aligned directly to the CARD reference database
-   using RGI's bwt mode (Bowtie2 aligner), which maps reads to known resistance gene
-   sequences without requiring assembly.
-4. Comparison — gene-level and drug-class-level resistomes compared between the two
-   samples: which genes are shared vs. sample-specific, and how drug-class composition differs.
+- Statistical testing: Mann-Whitney U (two-sided), per gene, followed by
+  Benjamini-Hochberg FDR correction across all 226 genes tested.
+- Only the FDR-adjusted p-value is treated as evidence of a real difference;
+  raw p-values are reported for transparency but not used to draw conclusions.
+- n=6 per group is a small sample size for a resistome study — this is a
+  proof-of-concept analysis, not a definitive characterization of manure vs.
+  soil resistomes generally.
 
-## Results at a glance
+## Running the pipeline
 
-| Top genes per sample | Resistome overlap | Drug class breakdown |
-|---|---|---|
-| ![Top genes](figures/top_genes_comparison.png) | ![Overlap](figures/gene_overlap.png) | ![Drug class](figures/drug_class_breakdown.png) |
-
-- Sample 1 detected 47 AMR genes, dominated by rifamycin resistance and RND-family efflux
-  pumps (MexF, MuxB/C, amrB) — mechanisms common in soil-associated environmental bacteria.
-- Sample 2 detected 91 AMR genes, dominated by tetracycline resistance (tet(M), tet(T),
-  tet(36), tet(44), tet(Q)) and lincosamide/macrolide resistance — a pattern consistent with
-  antibiotic-driven selection.
-- Only 7 of 124 total unique genes detected were shared between the two samples, indicating
-  the resistome composition is largely sample-specific rather than a common "core" set.
-
-Full gene-level tables and interpretation are in RESULTS.md.
-
-## Running it
-
-Requires RGI and the CARD database (installed via conda/bioconda; see notebook for full
-environment setup, including Colab-specific workarounds for --local database mode).
-
-    fastq-dump -X 500000 --split-files --gzip <SRR_accession>
-    fastp -i <sample>_1.fastq.gz -I <sample>_2.fastq.gz -o <sample>_1.trim.fastq.gz -O <sample>_2.trim.fastq.gz
-    rgi bwt --read_one <sample>_1.trim.fastq.gz --read_two <sample>_2.trim.fastq.gz --aligner bowtie2 --output_file <sample>_rgi_bwt --local --clean
-
-## Adapting this to other samples or a full dataset
-
-- Swap in any SRA accession under a BioProject of interest — the pipeline is accession-agnostic.
-- To scale to a full comparative study, this would extend naturally to more samples per group
-  (e.g. treated vs. untreated compost, or multiple animal sources) enabling statistical
-  comparison and, with enough samples, a genuine classification model predicting sample
-  origin/treatment from resistome fingerprint.
+```bash
+chmod +x scripts/*.sh
+./scripts/02_run_rgi.sh data/accessions.txt   # downloads, trims, and runs RGI per sample (skips steps already done)
+python scripts/03_merge_rgi_results.py
+python scripts/04_analyze_resistome_stats.py
+python scripts/05_list_significant_genes.py
+```
