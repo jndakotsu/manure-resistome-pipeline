@@ -50,7 +50,7 @@ mean of 147.5 reads in manure vs. 0 in soil), macrolide, lincosamide,
 aminoglycoside, and sulfonamide resistance. Soil-enriched genes (`rphA`,
 `HelR`, `vanR` in the vanO cluster, `ceoB`) instead reflect resistance
 mechanisms more typical of intrinsic/environmental bacteria — rifamycin,
-glycopeptide, and efflux-based resistance — rather than agricultural
+glycopeptide, and efflux-based resistance rather than agricultural
 exposure.
 
 See `results/gene_mannwhitney_significant_only.csv` for the full list of
@@ -86,7 +86,7 @@ See `results/gene_mannwhitney_significant_only.csv` for the full list of
   Benjamini-Hochberg FDR correction across all 226 genes tested.
 - Only the FDR-adjusted p-value is treated as evidence of a real difference;
   raw p-values are reported for transparency but not used to draw conclusions.
-- n=6 per group is a small sample size for a resistome study — this is a
+- n=6 per group is a small sample size for a resistome study this is a
   proof-of-concept analysis, not a definitive characterization of manure vs.
   soil resistomes generally.
 
