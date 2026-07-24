@@ -37,7 +37,7 @@ adding proper statistical testing
 
 - **226** AMR genes detected across all 12 samples
 - **55** genes significant at raw p < 0.05
-- **23** genes (10.2%) remain significant after FDR correction — the number
+- **23** genes (10.2%) remain significant after FDR correction the number
   that actually matters, since testing 226 genes means several would clear
   p < 0.05 by chance alone
 - **19 manure-enriched, 4 soil-enriched** among the 23 FDR-significant genes
